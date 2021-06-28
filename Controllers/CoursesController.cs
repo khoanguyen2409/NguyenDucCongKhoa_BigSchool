@@ -11,6 +11,7 @@ namespace NguyenDucCongKhoa_BigSchool.Controllers
 {
     public class CoursesController : Controller
     {
+       //Ghi chu
         // GET: Courses
         private readonly ApplicationDbContext _dbContext;
         public CoursesController()
