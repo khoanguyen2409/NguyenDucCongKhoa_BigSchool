@@ -1,4 +1,4 @@
-﻿.body {
+.body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -29,33 +29,39 @@ textarea {
     border-color: #ff0000;
 }
 
-.navbar-inverse .navbar-nav > li > a{
+.navbar-inverse .navbar-nav > li > a {
     color: white;
 }
 
-.navbar-inverse .navbar-brand{
-    color: white;
+.navbar-inverse .navbar-brand {
+   color: white;
 }
 
-.course{
+.course {
     list-style: none;
+    margin-top:70px
 }
 
-.course > li{
+.course > li {
     position: relative;
     margin-bottom: 30px;
 }
 
-.course > li .date{
+.course > li .date {
     text-align: center;
     background-color: #d41d50;
-    color:white;
-    width:60px;
-    border-radius:8px;
+    color: white;
+    width: 60px;
+    border-radius: 8px;
 }
 
-.course > li .details{
-    position:absolute;
-    top:0;
-    left:70px;
+.course > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px;
 }
+
+h2 {
+     margin-top:55px;
+}
+
