@@ -186,25 +186,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202106280308519_InitialModel.cs" />
-    <Compile Include="Migrations\202106280308519_InitialModel.Designer.cs">
-      <DependentUpon>202106280308519_InitialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202106280425336_CreateTableCourse.cs" />
-    <Compile Include="Migrations\202106280425336_CreateTableCourse.Designer.cs">
-      <DependentUpon>202106280425336_CreateTableCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202106280428275_PopulateCategoryTable.cs" />
-    <Compile Include="Migrations\202106280428275_PopulateCategoryTable.Designer.cs">
-      <DependentUpon>202106280428275_PopulateCategoryTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202106300659594_AddNameColumnToApplicationUser.cs" />
-    <Compile Include="Migrations\202106300659594_AddNameColumnToApplicationUser.Designer.cs">
-      <DependentUpon>202106300659594_AddNameColumnToApplicationUser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202107030830570_AddAttendance.cs" />
-    <Compile Include="Migrations\202107030830570_AddAttendance.Designer.cs">
-      <DependentUpon>202107030830570_AddAttendance.cs</DependentUpon>
+    <Compile Include="Migrations\202107050143130_Khoitao.cs" />
+    <Compile Include="Migrations\202107050143130_Khoitao.Designer.cs">
+      <DependentUpon>202107050143130_Khoitao.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -296,20 +280,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202106280308519_InitialModel.resx">
-      <DependentUpon>202106280308519_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280425336_CreateTableCourse.resx">
-      <DependentUpon>202106280425336_CreateTableCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280428275_PopulateCategoryTable.resx">
-      <DependentUpon>202106280428275_PopulateCategoryTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106300659594_AddNameColumnToApplicationUser.resx">
-      <DependentUpon>202106300659594_AddNameColumnToApplicationUser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202107030830570_AddAttendance.resx">
-      <DependentUpon>202107030830570_AddAttendance.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202107050143130_Khoitao.resx">
+      <DependentUpon>202107050143130_Khoitao.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
