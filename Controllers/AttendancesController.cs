@@ -24,6 +24,7 @@ namespace NguyenDucCongKhoa_BigSchool.Controllers
             var userId = User.Identity.GetUserId();
             if (_dbContext.Attendances.Any(a => a.AttendeeId == userId && a.CourseId == attendanceDto.CourseId))
                 return BadRequest("The Attendace already exists!");
+            
             var attendace = new Attendance
             {
                 CourseId = attendanceDto.CourseId,
