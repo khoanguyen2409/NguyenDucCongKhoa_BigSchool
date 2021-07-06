@@ -84,5 +84,23 @@ namespace NguyenDucCongKhoa_BigSchool.Controllers
 
             return View(courses);
         }
+
+        [Authorize]
+        public ActionResult Edit(int id)
+        {
+            var userId = User.Identity.GetUserId();
+            var course = _dbContext.Course.Single(c => c.Id == id && c.LecturerId == userId);
+
+            var viewModel = new CourseViewModel
+            {
+                Categories = _dbContext.Categories.ToList(),
+                Date = course.DateTime.ToString("dd/M/yyyyy"),
+                Time = course.DateTime.ToString("HH:mm"),
+                Category = course.CategoryID,
+                Place = course.Place
+            };
+
+            return View("Create", viewModel);
+        }
     }
 }
